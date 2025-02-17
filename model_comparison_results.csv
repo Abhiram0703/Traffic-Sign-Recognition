@@ -1,0 +1,4 @@
+,test_accuracy,test_loss,inference_time,model_size,memory_usage
+Custom CNN,0.9877,0.0436,0.0016,4.4282,2524.4844
+ResNet50,0.1897,6.4846,0.0127,102.645,2636.2383
+MobileNetV2,0.4441,1.8762,0.0078,16.749,2740.3906
