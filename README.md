@@ -13,9 +13,8 @@ The custom CNN achieves **~98% accuracy** on the test set, with low inference ti
 5. [Model Architectures](#model-architectures)
 6. [Model Comparison and Results](#model-comparison-and-results)
 7. [Running the Application](#running-the-application)
-8. [Future Improvements](#future-improvements)
-9. [Contributing](#contributing)
-10. [Contact](#contact)
+8. [Contributing](#contributing)
+9. [Contact](#contact)
 
 ## Dataset
 The project uses the **German Traffic Sign Recognition Benchmark (GTSRB)** dataset, available on Kaggle. To set up the dataset:
