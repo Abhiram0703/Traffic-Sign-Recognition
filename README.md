@@ -5,6 +5,9 @@ This project implements a Traffic Sign Recognition system using deep learning, l
 
 The custom CNN achieves **~98% accuracy** on the test set, with low inference time and minimal resource requirements, making it suitable for deployment in resource-constrained environments.
 
+The performance of the model can be verified from the deployed application link : 
+# 🌐 https://traffic-sign-recognition-abhiram.streamlit.app/
+
 ## Table of Contents
 1. [Dataset](#dataset)
 2. [Folder Structure](#folder-structure)
@@ -174,6 +177,9 @@ The custom CNN is the optimal choice for this task due to its high accuracy, low
    - Description of the traffic sign's meaning
    - Top-5 predictions with confidence scores and descriptions
 6. Optionally, click **Clear All Crops** to start over.
+
+The application is also deployed online and can be accessed through
+ * https://traffic-sign-recognition-abhiram.streamlit.app/
 
 The application simulates object detection by allowing manual cropping of traffic signs, ensuring accurate recognition even in complex images.
 
