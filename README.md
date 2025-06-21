@@ -44,9 +44,13 @@ Traffic-Sign-Recognition/
 ├── Model/                      # Trained model
 │   └── custom_cnn_model.h5     # Saved custom CNN model
 │
+|
 ├── EDA plots/                  # Visualizations from EDA
 │   └── 1-10 plots              # Plots for classes 1-10
 │
+|__ test_images/                #subset of Test data
+|           600+ images
+|
 ├── Traffic_sign.ipynb          # Jupyter Notebook for EDA, preprocessing, and model training
 ├── app.py                      # Streamlit application for traffic sign recognition
 ├── model_comparison_results.csv # Model performance metrics
