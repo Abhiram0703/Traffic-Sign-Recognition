@@ -151,11 +151,11 @@ The project follows a structured workflow, as detailed in the `Traffic_sign.ipyn
 ## Model Comparison and Results
 The models were evaluated on the GTSRB test set (12,630 images) with the following metrics:
 
-| Model       | Test Accuracy | Test Loss | Inference Time (s) | Model Size (MB) | Memory Usage (MB) |
+| Model       | Test Accuracy | Test Loss | Inference Time (ms) | Model Size (MB) | Memory Usage (MB) |
 |-------------|---------------|-----------|---------------------|------------------|--------------------|
-| Custom CNN  | **97.91%**    | **0.0940** | **0.3314**          | **13.43**        | **8026.26**        |
-| ResNet50    | 35.46%        | 2.7867    | 2.5799              | 102.65           | 8457.20            |
-| MobileNetV2 | 52.40%        | 2.4344    | 1.3316              | 16.75            | 8586.24            |
+| Custom CNN  | **97.91%**    | **0.0940** | **1.3256**          | **13.43**        | **8026.26**        |
+| ResNet50    | 35.46%        | 2.7867    | 10.3196              | 102.65           | 8457.20            |
+| MobileNetV2 | 52.40%        | 2.4344    | 5.3264              | 16.75            | 8586.24            |
 
 ### Relative Comparison
 - **Accuracy**: The custom CNN significantly outperforms transfer learning models, achieving **97.91% accuracy** compared to 35.46% (ResNet50) and 52.40% (MobileNetV2). This indicates that the custom CNN is better suited for the specific task of traffic sign recognition, likely due to its tailored architecture and training on the GTSRB dataset.
