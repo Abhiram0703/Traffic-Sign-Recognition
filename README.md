@@ -154,11 +154,11 @@ The models were evaluated on the GTSRB test set (12,630 images) with the followi
 | Model       | Test Accuracy | Test Loss | Inference Time (ms) | Model Size (MB) |
 |-------------|---------------|-----------|---------------------|------------------|
 | Custom CNN  | **97.91%**    | **0.0940** | **1.3256**          | **13.43**        |
-| ResNet50    | 35.46%        | 2.7867    | 10.3196              | 102.65           |
-| MobileNetV2 | 52.40%        | 2.4344    | 5.3264              | 16.75            |
+| ResNet50    | 96.46%        | 0.1167    | 10.3196              | 102.65           |
+| MobileNetV2 | 95.40%        | 0.1344    | 5.3264              | 16.75            |
 
 ### Relative Comparison
-- **Accuracy**: The custom CNN significantly outperforms transfer learning models, achieving **97.91% accuracy** compared to 35.46% (ResNet50) and 52.40% (MobileNetV2). This indicates that the custom CNN is better suited for the specific task of traffic sign recognition, likely due to its tailored architecture and training on the GTSRB dataset.
+- **Accuracy**: The custom CNN significantly outperforms transfer learning models, achieving **97.91% accuracy** compared to 96.46% (ResNet50) and 95.42% (MobileNetV2). This indicates that the custom CNN is better suited for the specific task of traffic sign recognition, likely due to its tailored architecture and training on the GTSRB dataset.
 - **Test Loss**: The custom CNN has the lowest test loss (0.0940), indicating better convergence and prediction confidence compared to ResNet50 (2.7867) and MobileNetV2 (2.4344).
 - **Inference Time**: The custom CNN is the fastest, with an inference time of **0.3314 seconds**, making it ideal for real-time applications. ResNet50 (2.5799s) and MobileNetV2 (1.3316s) are significantly slower, likely due to their deeper architectures.
 - **Model Size**: The custom CNN has a compact size of **13.43 MB**, compared to 102.65 MB for ResNet50 and 16.75 MB for MobileNetV2, making it more suitable for deployment on resource-constrained devices.
